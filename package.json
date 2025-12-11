@@ -1,0 +1,32 @@
+{
+  "name": "tkgh002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@maxmind/geoip2-node": "^6.3.4",
+    "express": "^5.2.1",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahori/tkgh002.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mahori/tkgh002/issues"
+  },
+  "homepage": "https://github.com/mahori/tkgh002#readme"
+}
