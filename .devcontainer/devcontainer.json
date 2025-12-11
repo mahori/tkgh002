@@ -1,0 +1,10 @@
+{
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/ts-node": {}
+  },
+  "remoteEnv": {
+    "GEOIP_DATABASE": "${containerWorkspaceFolder}/data"
+  }
+}
